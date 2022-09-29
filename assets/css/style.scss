@@ -1,18 +1,11 @@
-@font-face {
-  font-family: "Antic Slab";
-  src: url("/assets/fonts/AnticSlab-Regular.woff2") format("woff2"),
-    url("/assets/fonts/AnticSlab-Regular.woff") format("woff"),
-    url("/assets/fonts/AnticSlab-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: "Antic Slab";
+  font-family: "Antic Slab", serif;
   line-height: 24px;
   font-size: 16px;
   color: #000;
