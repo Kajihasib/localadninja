@@ -58,8 +58,7 @@ body {
     display: inline-block;
 
     @media (min-width: 1200px) {
-      display: block;
-      text-align: right;
+      margin-left: 100px;
     }
     @media (max-width: 767px) {
       display: block;
